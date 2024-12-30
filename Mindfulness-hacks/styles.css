@@ -9,6 +9,12 @@ body {
     background-color: black;
         
     }
+    p{
+        color:yellow;
+    }
+    section ul{
+        color: yellow;
+    }
    
 h3{
         margin-left: -70vw;
@@ -35,7 +41,7 @@ header {
     padding: 20px;
     text-align: center;
     height: 93px;
-    width: 100vw;
+    width: 1308px;
 }
 
 nav ul {
@@ -68,13 +74,13 @@ footer {
     text-align: center;
     padding: 30px ;
     position: relative;
-    width: 100%;
+    width: 1288px;
     
    
 }
 .op{
     background-color: silver;
-    background-image: url(man-walking-dog.jpg);
+    background-image: url(mental.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -82,10 +88,11 @@ footer {
 }
 section {
     padding: 100px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 20vw;
-    width: 85vw;
-    background-image: url(man-walking-dog.jpg);
+    width: 84vw;
+    background-image: url(mental.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -122,9 +129,7 @@ input[type="submit"]:hover {
     background-color: #555;
 }
 
-.a {
-    margin-top: 100px;
-}
+
 
 /* Media Queries for Mobile Devices */
 @media screen and (max-width: 768px) {
@@ -215,7 +220,12 @@ input[type="submit"]:hover {
         margin-top: 30px;
         font-size: x-small;
     }
-
+p{
+    color:yellow;
+}
+section ul{
+    color: yellow;
+}
     form {
         width: 100%;
         margin: 0 10px;
